@@ -1,0 +1,29 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@namespace BlazorTailWindsFirstApp.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="~/" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link href="css/app.css" rel="stylesheet" />
+    <component type="typeof(HeadOutlet)" render-mode="ServerPrerendered" />
+
+</head>
+<body>
+
+        @RenderBody()
+
+       <!-- Error Section -->
+        <div id="blazor-error-ui" class="bg-yellow-100 w-full h-7 hidden">
+            <span class="ml-8 mt-1">An unhandled exception has occurred. See browser dev tools for details.</span>
+            <a href="" class="text-blue-600 underline p-4">Reload</a>
+            <a class="text-blue-600 underline float-right mr-2">🗙</a>
+        </div>
+
+    <script src="_framework/blazor.server.js"></script>
+</body>
+</html>
