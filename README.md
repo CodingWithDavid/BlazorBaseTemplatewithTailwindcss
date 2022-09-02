@@ -1,6 +1,6 @@
 # Jumping feet first into Tailwindcss
 
-To lean Tailwindcss I decied to take the basic Blazor Server Application template, remove all the stying and re-style it using Tailwindcss.  I saw Chris Sainty give an excellent talk at a conference about using Tailwindcss and I had to try it.
+To lean Tailwindcss I decide to take the basic Blazor Server Application template, remove all the stying and re-style it using Tailwindcss.  I saw Chris Sainty give an excellent talk at a conference about using Tailwindcss and I had to try it.
 
 by [David Gallivan](http://twitter.com/CodingwithDavid)
 
@@ -38,7 +38,7 @@ Using Tailwindcss looks to be very easy and quick to style a page.  And after sp
 
 ## Problems or Suggestions
 
-[Open an issue here]( https://github.com/CodingWithDavid/BlazorOwnComponetLib/issues)
+[Open an issue here]( https://github.com/CodingWithDavid/BlazorBaseTemplatewithTailwindcss/issues)
 
 ## Thank You
 
