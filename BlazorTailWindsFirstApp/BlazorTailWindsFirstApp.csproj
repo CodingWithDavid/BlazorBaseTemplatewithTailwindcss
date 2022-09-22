@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<Exec Command="powershell &quot;Start-Process $(ProjectDir)tailwindwatch.bat&quot;" />
+	</Target>
+	
 </Project>
