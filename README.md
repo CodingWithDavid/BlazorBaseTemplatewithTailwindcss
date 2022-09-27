@@ -1,4 +1,4 @@
-# Jumping feet first into Tailwindcss
+# Blazor Server Side Base Template with TailwindCss
 
 To lean Tailwindcss I decide to take the basic Blazor Server Application template, remove all the stying and re-style it using Tailwindcss.  I saw Chris Sainty give an excellent talk at a conference about using Tailwindcss and I had to try it.
 
